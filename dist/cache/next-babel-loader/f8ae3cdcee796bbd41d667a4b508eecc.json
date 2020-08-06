@@ -1,0 +1,1 @@
+{"ast":null,"code":"import { Subject } from 'rxjs';\nconst DomChangeSubject = new Subject();\nexport { DomChangeSubject };","map":null,"metadata":{},"sourceType":"module"}

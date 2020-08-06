@@ -1,0 +1,1 @@
+{"ast":null,"code":"const getUrlParameters = name => {\n  var reg = new RegExp(\"(^|&)\" + name + \"=([^&]*)(&|$)\");\n  var r = window.location.search.substr(1).match(reg);\n  if (r != null) return decodeURI(r[2]);\n  return null;\n};\n\nexport { getUrlParameters };","map":null,"metadata":{},"sourceType":"module"}
